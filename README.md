@@ -35,9 +35,9 @@ Built entirely with the Python standard library — **no pip installs required**
 
 ---
 
-## ✨ Features
+##  Features
 
-### 🗂️ Four Sort Modes
+###  Four Sort Modes
 | Mode | What it creates |
 |------|----------------|
 | **By File Type** | `Images/` `Documents/` `Videos/` `Audio/` `Programs/` `Compressed/` `Code/` `Fonts/` `Other/` |
@@ -45,11 +45,11 @@ Built entirely with the Python standard library — **no pip installs required**
 | **By File Size** | `Tiny (< 1 MB)/` `Small (1–50 MB)/` `Medium (50–500 MB)/` `Large (500 MB–1 GB)/` `Huge (> 1 GB)/` |
 | **By Extension** | One folder per extension — `PDF/` `MP4/` `PY/` etc. |
 
-### 🔍 Smart Filters
+###  Smart Filters
 - **Date filter** — preset ranges (Today / Last 7 Days / Last 30 Days / Last 6 Months / Last Year / Older) **or** a custom `YYYY-MM-DD` from/to range
 - **Size filter** — custom Min MB / Max MB values, stackable with any sort mode
 
-### 🛡️ Duplicate Management
+###  Duplicate Management
 - Built-in **Duplicate Scanner** tab — detects files sharing the same name + size
 - Select and delete duplicates directly from the UI
 - Five **collision strategies** when a filename already exists at the destination:
@@ -62,26 +62,26 @@ Built entirely with the Python standard library — **no pip installs required**
   | Keep Larger | Overwrites only if source is bigger |
   | Skip | Leaves the file untouched |
 
-### 🔄 Safety & Control
+###  Safety & Control
 - **Dry Run** — full preview of every move with zero files touched
 - **Undo Last Sort** — reverses every file move from the previous run
 - **Stop button** — halt mid-sort at any time
 - **Recursive mode** — optionally descend into sub-folders
 - **Skip hidden files** — ignores dot-files by default
 
-### 📊 Live Statistics
+###  Live Statistics
 - Real-time progress bar and activity log
 - Statistics tab with **four chart views**: Categories · File Extensions · Size Ranges · Date Buckets
 - Summary panel: total files, processed, skipped, errors, total size moved, success rate
 
-### 🎨 UI & Themes
+###  UI & Themes
 - Four built-in colour themes: **Professional · Corporate · Dark Pro · Elegant**
 - **Explorer tab** — browsable folder tree with file sizes and modified dates
 - **Menu bar** with keyboard-accessible actions
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -120,7 +120,7 @@ pyinstaller --onefile --windowed file_sorter_v3.py
 
 ---
 
-## 🗺️ Usage Guide
+##  Usage Guide
 
 ### Basic workflow
 1. Launch the app
@@ -138,12 +138,12 @@ Click **↩ Undo Last Sort** on the Main tab to move every file back to its orig
 ### Finding & removing duplicates
 1. Select a directory
 2. Open the **Duplicates** tab
-3. Click **🔍 Scan for Duplicates**
-4. Select the copies you want to remove and click **🗑 Delete Selected Dupes**
+3. Click ** Scan for Duplicates**
+4. Select the copies you want to remove and click ** Delete Selected Dupes**
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 file-sorter-pro/
@@ -156,7 +156,7 @@ file-sorter-pro/
 
 ---
 
-## 🗺️ Roadmap
+##  Roadmap
 
 - [ ] **Scheduled sorting** — run automatically at a set time or on a folder-watch trigger
 - [ ] **Rule builder** — custom rules like "files containing 'invoice' → Finance/"
@@ -168,7 +168,7 @@ file-sorter-pro/
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 
 File Sorter Pro is intentionally **zero-dependency** — it relies only on modules that ship with CPython:
 
@@ -188,33 +188,33 @@ The sort engine works in three steps on every file:
 
 ---
 
-## 📋 Changelog
+##  Changelog
 
 ### v3.0.0 — May 2025
-- ✅ Added **By Date**, **By Size**, and **By Extension** sort modes
-- ✅ Date filter with presets + custom from/to range
-- ✅ Size filter with custom Min/Max MB values
-- ✅ **Duplicate Scanner** tab with selective deletion
-- ✅ Five collision/duplicate strategies (rename, keep newer/older/larger, skip)
-- ✅ **Dry Run** preview mode — zero files touched
-- ✅ **Undo Last Sort** — full reversal of any completed run
-- ✅ Recursive mode and skip-hidden-files toggle
-- ✅ Statistics charts for Categories, Extensions, Sizes, Dates
-- ✅ Explorer tab now shows file sizes and modified dates
-- ✅ Added **Code** and **Fonts** file categories
+-  Added **By Date**, **By Size**, and **By Extension** sort modes
+-  Date filter with presets + custom from/to range
+-  Size filter with custom Min/Max MB values
+-  **Duplicate Scanner** tab with selective deletion
+-  Five collision/duplicate strategies (rename, keep newer/older/larger, skip)
+-  **Dry Run** preview mode — zero files touched
+-  **Undo Last Sort** — full reversal of any completed run
+-  Recursive mode and skip-hidden-files toggle
+-  Statistics charts for Categories, Extensions, Sizes, Dates
+-  Explorer tab now shows file sizes and modified dates
+-  Added **Code** and **Fonts** file categories
 
 ### v2.0.0
-- ✅ Sort by file type into named category folders
-- ✅ Files keep original names — no renaming
-- ✅ Numeric suffix on name collision
-- ✅ Live progress bar and activity log
+-  Sort by file type into named category folders
+-  Files keep original names — no renaming
+-  Numeric suffix on name collision
+-  Live progress bar and activity log
 
 ### v1.0.0
 - Initial release — sorted files into date-named folders
 
 ---
 
-## ❓ FAQ
+##  FAQ
 
 **Q: Will it delete any of my files?**
 A: No. The app only *moves* files between folders within the directory you select. The only exception is the Duplicate Scanner tab, which deletes only files you manually select and confirm.
@@ -236,7 +236,7 @@ A: Yes — see the PyInstaller instructions in the Getting Started section above
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions, issues and feature requests are welcome!
 
@@ -255,13 +255,13 @@ Please keep PRs focused — one feature or fix per PR. Open an issue first for l
 
 ---
 
-## 📄 License
+##  License
 
 Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for details.
 
 ---
 
-## 👤 Author
+##  Author
 
 **M. Aehtsham Nasir**
 
@@ -272,8 +272,8 @@ Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for details.
 
 <div align="center">
 
-⭐ **If this project saved you time, please give it a star!** ⭐
+ **If this project saved you time, please give it a star!** 
 
-*Built with ❤️ and Python*
+*Built with  and Python*
 
 </div>
